@@ -8,11 +8,8 @@ export default function Header() {
     <header className="fixed top-0 w-full bg-black/95 backdrop-blur-md border-b border-gray-800/50 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Logtiva Logo" className="w-10 h-10 object-contain" />
-          <div className="font-bold text-2xl text-white tracking-tight">
-            Logtiva
-          </div>
+        <div className="flex items-center">
+          <img src="/logo.png" alt="Logtiva Logo" className="w-28 h-28 object-contain" />
         </div>
         
         {/* Menu de navegação principal */}

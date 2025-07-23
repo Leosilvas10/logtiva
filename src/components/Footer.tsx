@@ -8,24 +8,16 @@ export default function Footer() {
     <footer className="bg-gradient-to-b from-gray-900 to-black border-t border-gray-700/50">
       <div className="max-w-7xl mx-auto px-6 py-16">
         {/* Seção principal do footer */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="flex flex-wrap md:flex-nowrap gap-8 mb-8 items-start justify-start">
           
           {/* Coluna da empresa */}
           <div>
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-emerald-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">L</span>
-              </div>
-              <div className="font-bold text-2xl text-white">
-                Logtiva
-              </div>
+            <div className="flex items-center mb-6">
+              <img src="/logo.png" alt="Logtiva Logo" className="w-28 h-28 object-contain" />
             </div>
             
-            <p className="text-gray-300 mb-6 leading-relaxed">
-              Soluções inteligentes em automação empresarial, 
-              desenvolvimento de websites e aplicativos. 
-              Transformamos processos com IA para impulsionar 
-              seu negócio.
+            <p className="text-gray-300 mb-6 leading-relaxed max-w-md break-words">
+              Soluções inteligentes em automação empresarial, desenvolvimento de websites e aplicativos. Transformamos processos com IA para impulsionar seu negócio.
             </p>
             
             {/* Redes sociais */}
@@ -52,11 +44,12 @@ export default function Footer() {
 
           {/* Coluna de serviços */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6 relative">
-              Serviços
-              <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
-            </h3>
-            <ul className="space-y-4">
+            <div className="flex flex-col items-start mb-6">
+              <h3 className="text-white font-semibold text-lg mb-6 relative">
+                Serviços
+                <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
+              </h3>
+              <ul className="space-y-4">
               <li>
                 <Link className="text-gray-400 hover:text-green-400 transition-colors duration-200 flex items-center group" href="/servicos">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -81,16 +74,18 @@ export default function Footer() {
                   Consultoria Tech
                 </Link>
               </li>
-            </ul>
+              </ul>
+            </div>
           </div>
 
           {/* Coluna de links úteis */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6 relative">
-              Links Úteis
-              <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
-            </h3>
-            <ul className="space-y-4">
+            <div className="flex flex-col items-start mb-6">
+              <h3 className="text-white font-semibold text-lg mb-6 relative text-left">
+                Links Úteis
+                <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
+              </h3>
+              <ul className="space-y-4 pl-0 text-left">
               <li>
                 <Link className="text-gray-400 hover:text-green-400 transition-colors duration-200 flex items-center group" href="/">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
@@ -109,16 +104,18 @@ export default function Footer() {
                   Contato
                 </Link>
               </li>
-            </ul>
+              </ul>
+            </div>
           </div>
 
           {/* Coluna de contato */}
           <div>
-            <h3 className="text-white font-semibold text-lg mb-6 relative">
-              Contato
-              <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
-            </h3>
-            <div className="space-y-4">
+            <div className="flex flex-col items-start mb-6">
+              <h3 className="text-white font-semibold text-lg mb-6 relative">
+                Contato
+                <div className="absolute -bottom-2 left-0 w-8 h-0.5 bg-gradient-to-r from-green-400 to-emerald-500"></div>
+              </h3>
+              <div className="space-y-4">
               <a href="mailto:contato@logtiva.com" className="text-gray-400 hover:text-green-400 transition-colors duration-200 flex items-center group">
                 <svg className="w-5 h-5 mr-3 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
@@ -131,6 +128,7 @@ export default function Footer() {
                 </svg>
                 (31) 99199-8938
               </a>
+              </div>
             </div>
           </div>
         </div>
