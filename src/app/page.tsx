@@ -8,7 +8,6 @@ import ContactForm from '../components/ContactForm';
 export default function Home() {
   return (
     <>
-// ...existing code...
       <Header />
       <div className="w-full">
         {/* Hero Section */}
