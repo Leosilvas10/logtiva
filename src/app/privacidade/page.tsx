@@ -1,6 +1,10 @@
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+
 export default function PoliticaPrivacidade() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Header />
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-4xl mx-auto px-6">
@@ -219,6 +223,7 @@ export default function PoliticaPrivacidade() {
 
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

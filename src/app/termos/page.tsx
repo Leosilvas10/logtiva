@@ -1,6 +1,10 @@
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+
 export default function TermosUso() {
   return (
     <div className="min-h-screen bg-black text-white">
+      <Header />
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-4xl mx-auto px-6">
@@ -181,8 +185,8 @@ export default function TermosUso() {
             </div>
           </div>
 
-          {/* Contato */}
-          <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/30 border border-green-500/30 rounded-2xl p-8">
+      {/* Contato */}
+      <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/30 border border-green-500/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold text-white mb-6">6. Contato</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
@@ -232,6 +236,7 @@ export default function TermosUso() {
 
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
