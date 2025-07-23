@@ -39,3 +39,34 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignorar outros projetos na pasta pai
+../*/
+../Gunther - Impress Print Shop/
+../Jordane Lopes/
+../Pedro Rezio/
+../SiteDoTrabalhador/
+../o meu credito/
+../worker-job-board-frontend/
+
+# Ignorar arquivos temporários e de backup
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Ignorar logs adicionais
+logs/
+*.log
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignorar arquivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
