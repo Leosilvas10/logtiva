@@ -9,9 +9,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-emerald-500 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">L</span>
-          </div>
+          <img src="/logo.png" alt="Logtiva Logo" className="w-10 h-10 object-contain" />
           <div className="font-bold text-2xl text-white tracking-tight">
             Logtiva
           </div>
