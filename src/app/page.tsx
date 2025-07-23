@@ -133,7 +133,7 @@ export default function Home() {
         {/* Formulário de contato */}
         <ContactForm />
       </div>
-      <Footer />
+      {/* <Footer /> removido, já está presente no layout global */}
     </>
   );
 }
