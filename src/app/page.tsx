@@ -1,13 +1,14 @@
-'use client';
+"use client";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import FeaturesSection from '../components/FeaturesSection';
 import ContactForm from '../components/ContactForm';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 export default function Home() {
   return (
     <>
+// ...existing code...
       <Header />
       <div className="w-full">
         {/* Hero Section */}

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove a configuração experimental obsoleta
-  // experimental: { appDir: true } <- REMOVER ISSO
+  // Configuração limpa para Next.js 15
+  // Não usar experimental.appDir pois já é padrão no Next.js 15
 }
 
 module.exports = nextConfig
